@@ -74,6 +74,13 @@ APIの基本設計について
 	
 	（おまけ)
 		おまけの read_master.py で営業日の読み出しが出来ます。
+		Json形式で、[CLMID].jsonのファイル名で出力します。
+		# 保存したいマスターのCLMIDを指定
+		SAVE_CLMID = {
+		    "CLMDateZyouhou",
+		    "CLMYobine",
+		}
+
 
 ６）利用時間外に接続した場合、"p_errno":"9"（システム、サービス停止中。）が返されます。
 
